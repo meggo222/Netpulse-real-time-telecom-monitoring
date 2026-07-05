@@ -1,0 +1,4 @@
+v1
+{"path":"file:///opt/spark-apps/data/bronze/network_events/part-00000-3aeb9acb-84ab-4601-b5a6-1a5d940d42ef-c000.snappy.parquet","size":6201,"isDir":false,"modificationTime":1783220757314,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///opt/spark-apps/data/bronze/network_events/part-00001-50c09be0-3d80-49bc-8ee6-46c956927d52-c000.snappy.parquet","size":6503,"isDir":false,"modificationTime":1783220757930,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///opt/spark-apps/data/bronze/network_events/part-00002-9cff0e69-64d0-44aa-9612-aa45352e4f41-c000.snappy.parquet","size":6480,"isDir":false,"modificationTime":1783220758550,"blockReplication":1,"blockSize":33554432,"action":"add"}

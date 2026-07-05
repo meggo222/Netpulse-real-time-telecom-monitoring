@@ -1,0 +1,22 @@
+apiVersion: 1
+
+datasources:
+  - name: TelecomPostgres
+    type: postgres
+    access: proxy
+    # NOTE: These must match the values in your project's .env file
+    # (APP_DB_HOST/PORT/NAME/USER/PASSWORD). Grafana's own environment-variable
+    # expansion for provisioning files is inconsistent across deployments, so
+    # plain values here are the more reliable choice for a local project.
+    url: postgres_app:5432
+    database: telecom_monitoring
+    user: telecom_admin
+    secureJsonData:
+      password: "Ahmed12345"
+    jsonData:
+      sslmode: disable
+      postgresVersion: 1500
+      timescaledb: false
+    isDefault: true
+    editable: true
+
