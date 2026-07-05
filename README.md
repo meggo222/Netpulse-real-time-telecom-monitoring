@@ -14,28 +14,8 @@ A production-style real-time Data Engineering platform designed to monitor telec
 
 ## Architecture
 
-                     NetPulse
-       Real-Time Telecom Monitoring Platform
+<img width="1536" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/698787e7-e82a-4c22-9d2b-1a70ed4d9900" />
 
-           Python Event Simulator
-                    |
-                    v
-              Apache Kafka
-                    |
-        +-----------+-----------+
-        |                       |
-        v                       v
-   Raw Ingestion          Alert Engine
-   Spark Streaming      Spark Streaming
-        |                       |
-        +-----------+-----------+
-                    |
-                    v
-               PostgreSQL
-               /         \
-              /           \
-             v             v
-        Apache Airflow   Grafana
 
 ## Features
 
